@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.blueBorder {
+    border : 1px dotted blue;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    margin-bottom: 0px;
+}
+
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  color: #F94F6D;
+  background-color: black;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+button{
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    font-family: "Quantico", sans-serif;
+    font-weight: 100;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.scoreIncrementer {
+    display: flex;
+    justify-content: space-around;
+}
